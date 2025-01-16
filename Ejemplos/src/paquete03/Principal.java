@@ -27,3 +27,4 @@ public class Principal {
 //el cual nos sirve y ayuda a mostrar los datos, enviandole 4 parametros
     }
 }
+
