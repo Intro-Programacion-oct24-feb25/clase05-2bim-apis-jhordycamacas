@@ -23,6 +23,7 @@ public class Principal {
         int suma = OperadorDos.obtenerSuma(valorA, valorB);
         int multiplicacion = OperadorTres.obtenerMultiplicacion(valorA, valorB);
         Imprimir.imprimirMensaje(valorA, valorB, suma, multiplicacion);
-
+//llamo a un procedimiento que se encuentra en la clase Imprimir del paquete06
+//el cual nos sirve y ayuda a mostrar los datos, enviandole 4 parametros
     }
 }

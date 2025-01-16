@@ -20,17 +20,16 @@ public class Principal {
         String nombre;
         String ciudad;
         String apellidoRetornado;
-        
+
         double[] misNotas;
         double promedio;
-        
+
         nombre = DatoPersonal.obtenerNombre();
         apellidoRetornado = DatoPersonal.obtenerApellido();
         ciudad = DatosUbicacion.obtenerCiudad();
         misNotas = DatoAcademico.obtenerNotas(4);
         promedio = DatoFinal.obtenerPromedio(misNotas);
-        
-        
+
         System.out.printf("Los datos ingresados son:\n"
                 + "Nombre: %s\n"
                 + "Apellido: %s\n"
@@ -41,5 +40,5 @@ public class Principal {
                 ciudad,
                 promedio);
     }
-    
+
 }

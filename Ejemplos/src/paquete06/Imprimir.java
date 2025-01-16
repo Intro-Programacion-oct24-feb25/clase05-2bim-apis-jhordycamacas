@@ -10,7 +10,8 @@ package paquete06;
  */
 public class Imprimir {
 
-    public static void imprimirMensaje(int valorA, int valorB, int suma, int multiplicacion) {
+    public static void imprimirMensaje(int valorA, int valorB, int suma, 
+            int multiplicacion) {
         System.out.printf("La suma de %d + %d es igual a: %d\n"
                 + "La multiplicacion de %d * %d es igual a: %d\n",
                 valorA, valorB,
