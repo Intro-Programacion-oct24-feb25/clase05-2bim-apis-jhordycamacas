@@ -6,6 +6,7 @@
 package ejemplos;
 
 import java.security.SecureRandom;
+
 // import java.security.*;
 
 /**
@@ -31,7 +32,7 @@ public class Ejemplo01 {
         
         // Returns a pseudorandom, uniformly distributed int value 
         // between 0 (inclusive) and the specified value (exclusive)
-        int valorAleatorio = numerosAleatorios.nextInt(5);
+        int valorAleatorio = numerosAleatorios.nextInt(2, 10);
         return valorAleatorio;
     }
     
